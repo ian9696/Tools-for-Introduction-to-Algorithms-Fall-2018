@@ -50,8 +50,8 @@ with open('scores.json', 'w', encoding='utf-8') as f:
 	json.dump(scores, f, indent='\t')
 
 cnt,cnt2=0,0
-with open('1071.1205 Grades-20181115_1705-comma_separated.csv', encoding='utf-8') as inp:
-	with open('1071.1205 Grades-20181115_1705-comma_separated_output.csv', 'w', encoding='utf-8') as out:
+with open('Grades.csv', encoding='utf-8') as inp:
+	with open('Grades output.csv', 'w', encoding='utf-8') as out:
 		for l in inp:
 			l=l.replace('\n', '')
 			if l.count(',')!=19:
