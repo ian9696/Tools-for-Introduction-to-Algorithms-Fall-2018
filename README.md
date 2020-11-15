@@ -3,9 +3,7 @@ Tools for grading and downloading/uploading assignment on [NCTU OJ](https://oj.n
 
 ## Tools
 
-`download.py` : Download assignment from NCTU OJ.
-
-`upload.py` : Upload assignment to NCTU OJ.
+`download.py`, `upload.py` : Download/Upload assignment on NCTU OJ, which includes text files for title, description, input, output, hint, and source sections (PDF format is also supported). Testdata are also downloaded/uploaded along with their constraints, which include JSON files for time_limit, memory_limit, output_limit, score, and sample.
 
 `genTest.py` : Generate Testdata constraints in JSON format.
 
