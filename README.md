@@ -1,7 +1,7 @@
 ## Tools for *Introduction to Algorithms (Fall 2018)*
 Tools for grading and downloading/uploading assignment on [NCTU OJ](https://oj.nctu.edu.tw/) for undergraduate course *Introduction to Algorithms (Fall 2018)*, implemented using Python and [OpenPyXL](https://pypi.org/project/openpyxl/).
 
-## Tools
+## Functionalities
 ### `download.py`, `upload.py`
 Download/Upload assignment on NCTU OJ, which includes text files for title, description, input, output, hint, and source sections (PDF format is also supported).
 
