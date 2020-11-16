@@ -7,7 +7,7 @@ Tools for grading and downloading/uploading assignment on [NCTU OJ](https://oj.n
 
 - Testdata are also downloaded/uploaded along with their constraints, which include JSON files for time limit, memory limit, output limit, score, and sample.
 
-### genTest.py
+### genConstraint.py
 - Generate default Testdata constraints in JSON format.
 
 ### getScore.py
