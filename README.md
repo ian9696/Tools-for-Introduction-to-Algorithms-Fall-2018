@@ -13,7 +13,7 @@ Tools for grading and downloading/uploading assignment on [NCTU OJ](https://oj.n
 ### getScore.py
 - Download submission list from NCTU OJ.
 
-- Filter submissions by score, creation time, and ip address.
+- Filter submissions by score, creation time, and IP address.
 
 - Ignore submissions according to submission ID, user ID, and user name.
 
