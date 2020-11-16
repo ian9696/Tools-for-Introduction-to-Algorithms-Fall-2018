@@ -7,8 +7,17 @@ Tools for grading and downloading/uploading assignment on [NCTU OJ](https://oj.n
 
 - Testdata are also downloaded/uploaded along with their constraints, which include JSON files for time limit, memory limit, output limit, score, and sample.
 
+```
+$ python3 download.py <problem_id> <folder_path>
+$ python3 upload.py  <problem_id> <folder_path>
+```
+
 ### genConstraint.py
 - Generate default testdata constraints in JSON format.
+
+```
+$ python3 genConstraint.py
+```
 
 ### getScore.py
 - Download submission list from NCTU OJ.
@@ -18,6 +27,10 @@ Tools for grading and downloading/uploading assignment on [NCTU OJ](https://oj.n
 - Ignore submissions according to submission ID, user ID, and user name.
 
 - Calculate grade and output in XLSX format.
+
+```
+$ python3 getScore.py
+```
 
 ## Note
 Domain name of NCTU OJ has changed from `oj.nctu.me` to `oj.nctu.edu.tw`, and domain name for API has changed from `api.oj.nctu.me` to `api.oj.nctu.edu.tw`.
