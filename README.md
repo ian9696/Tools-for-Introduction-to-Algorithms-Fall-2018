@@ -18,3 +18,6 @@ Tools for grading and downloading/uploading assignment on [NCTU OJ](https://oj.n
 - Ignore submissions according to submission ID, user ID, and user name.
 
 - Calculate grade and output in XLSX format.
+
+## Note
+Domain name of NCTU OJ has changed from `oj.nctu.me` to `oj.nctu.edu.tw`, and domain name for API has changed from `api.oj.nctu.me` to `api.oj.nctu.edu.tw`.
