@@ -19,6 +19,10 @@ $ python3 upload.py  <problem_id> <folder_path>
 
 - Download submissions' source code.
 
+```
+$ python3 downloadSubmission.py
+```
+
 ### genConstraint.py
 - Generate default testdata constraints in JSON format.
 
