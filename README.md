@@ -12,6 +12,13 @@ $ python3 download.py <problem_id> <folder_path>
 $ python3 upload.py  <problem_id> <folder_path>
 ```
 
+### downloadSubmission.py
+- Download submission list from NCTU OJ.
+
+- Filter submissions.
+
+- Download submissions' source codes.
+
 ### genConstraint.py
 - Generate default testdata constraints in JSON format.
 
